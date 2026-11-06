@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: pink;
+}
+
+.logo {
+  display: inline-block;
+  padding: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#logoMusik {
+  display: inline-block;
+  font-size: 20px;
+  background: white;
+  box-shadow: 0 0px 20px black;
+
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Saat musik diputar */
+#logoMusik.muter {
+  animation: putar 2s linear infinite;
+}
+
+@keyframes putar {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: white;
+  text-align: center;
+  width: 300px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0px 5px black;
+}
+
+.box p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.box a {
+  display: inline-block;
+  margin-top: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.box1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box1 p {
+  background: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0px 5px black;
+
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.box1 a {
+  display: inline-block;
+  margin-top: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+.isibox1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#next {
+  position: fixed;
+  top: -90px;
+  right: -30px;
+  text-decoration: none;
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+  border: 1px solid black;
+}
+
+.isi img {
+  width: 285px;
+  border-radius: 30px;
+
+  border: 1px solid hwb(0 11% 23%);
+}
+
+.isi p {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.isi {
+  background: white;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.kenal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.kenal p {
+  background: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 0px 5px black;
+}
+
+.kenal a {
+  display: inline-block;
+  margin-top: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.isikenal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.isikenal p{
+  background: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0px 5px black;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#nextt {
+  position: fixed;
+  top: 170px;
+  right: -30px;
+  text-decoration: none;
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+  border: 1px solid black;
+}
+
+.gombal3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gombal3 p  {
+  background: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0px 5px black;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.gombal3 a {
+  display: inline-block;
+  margin-top: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.isigombal3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.isigombal3 p {
+  background: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0px 5px black;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#nexttt {
+  position: fixed;
+  top: 170px;
+  right: -30px;
+  text-decoration: none;
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+  border: 1px solid black;
+}
+
+.gombal4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gombal4 p {
+  background: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0px 5px black;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.gombal4 a {
+  display: inline-block;
+  margin-top: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.isigombal4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.isigombal4 p {
+  background: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0px 5px black;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#nextttt {
+  position: fixed;
+  top: 170px;
+  right: -30px;
+  text-decoration: none;
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.gombal5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gombal5 p {
+  background: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0px 5px black;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.gombal5 a {
+  display: inline-block;
+  margin-top: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.isigombal5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.isigombal5 p {
+  background: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0px 5px black;
+
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#last {
+  position: fixed;
+  top: 200px;
+  right: -30px;
+  text-decoration: none;
+  color: black;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: red;
+  border: 1px solid black;
+  font-size: 25px;
+}
+
+#teks {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 90%;
+  text-align: center;
+  background: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
